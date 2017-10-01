@@ -1,56 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Change me!</title>
-
-
-    <!-- These are your CSS files -->
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="boxes.css" type="text/css">
+    <title>Kevin's Website</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
 <body>
-    <div id="app">
-
-        <!-- Begin left half of website !-->
-        <div class="content" id="sidebar">
-            <h3>Welcome to the Mars Picture Texting System!</h1>
-                <br>
-                <p>Get a picture taken by a Mars Rover on this date</p>
-                <input id="date" placeholder="YYYY-MM-DD" id="date">
-                <select id="camera">
-                    <option value="" disabled selected>Camera</option>                        
-                    <option value='fhaz'>fhaz</option>
-                    <option value='rhaz'>rhaz</option>
-                    <option value='navcam'>navcam</option>
-                  
-                </select>
-                <button onclick="getNasaPhoto()">Get Pic</button>
-
-
-                <p>Text that picture to a friend!</p>
-                <input placeholder="What number?" id="phone">
-                <input placeholder="Text content" id="text-content">
-                <button id="send-text" onclick="textNasaPhoto()">Send it!</button>
-        </div>
-
-        <!-- Begin right half of website !-->
-        <div class="content" id="picture">
-
-            <img id="mars">
-            <img id="troll" src = "https://media.giphy.com/media/aFTt8wvDtqKCQ/giphy.gif">
-        </div>
-
-
-
-    </div>
-    <!-- Careful! Don't edit after this point unless you absolutely need to! !-->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+<div id = "info">
+<strong><h1>Kevin Jin</h1></strong>
+<ul id = "link-nav">
+    <li><a href="https://github.com/kevjin">Github</a></li>
+    <li><a href="https://www.linkedin.com/in/kevin-jin-230b53110/">Linkedin</a></li>
+    <li><a href="">Resume</a></li>
+</ul>
+<!-- <img src="http://data.whicdn.com/images/168203275/large.jpg"> -->
+</div>
+<div class ="parallax" id = "vandy-bg"></div>
+<script type="text/javascript" src="script.js"></script>
 </body>
-
 </html>

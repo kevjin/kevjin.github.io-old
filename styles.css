@@ -1,0 +1,37 @@
+body {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	font-size: 20px;
+}
+.parallax {
+	background-image: url("https://media.glassdoor.com/o/34889/vanderbilt-university-medical-center-office.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    margin: 0px;
+}
+#info {
+	background-color: black;
+	/*margin: 10px 0px;*/
+	margin: 30px 0px 0 0;
+}
+h1{
+	margin:0px;
+	font-size: 100px;
+	color: white;
+}
+a {
+	color: white;
+}
+a:hover {
+	color: yellow;
+	text-decoration: overline;
+}
+#link-nav {
+	padding: 15px;
+}
