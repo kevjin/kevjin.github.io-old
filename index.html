@@ -4,19 +4,43 @@
     <title>Kevin's Website</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="aos-master/dist/aos.css" />
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 <div id = "info">
 <strong><h1>Kevin Jin</h1></strong>
-<ul id = "link-nav">
-    <li><a href="https://github.com/kevjin">Github</a></li>
-    <li><a href="https://www.linkedin.com/in/kevin-jin-230b53110/">Linkedin</a></li>
-    <li><a href="">Resume</a></li>
-</ul>
+<img id = "profile" src = "profilepic.jpg">
+<p>Computer Science Major at Vanderbilt University | Class of 2021</p>
+<img id = "arrow" src="arrow-down.png" data-aos="zoom-in-down" data-aos-delay="100">
+<!--  -->
 <!-- <img src="http://data.whicdn.com/images/168203275/large.jpg"> -->
 </div>
 <div class ="parallax" id = "vandy-bg"></div>
+<!-- <div class = "test" data-aos="flip-left" data-aos-delay="100">Hello there</div> -->
+
+<div class ="parallax" id = "vandy-bg">
+    
+<div id ="main-content">
+
+<div id = "link-nav">
+    <ul>
+    <li><a href="https://github.com/kevjin"><img data-aos="flip-left" data-aos-delay="100" src="github-logo.png"></a></li>
+    <li><a href="https://www.linkedin.com/in/kevin-jin-230b53110/"><img data-aos="flip-left" data-aos-delay="100" src="linkedin-logo.png"></a></li>
+    <li><a href=""><img data-aos="flip-left" data-aos-delay="100" src="doc-logo.png"></a></li>
+</ul>
+</div>
+<p>Hi! My personal site is still under construction. Please visit again later, thanks! -Kevin</p>
+</div>
+
+</div>
+
+<div id="footer">Kevin Jin 2017</div>
+
+<script src="aos-master/dist/aos.js"></script>
 <script type="text/javascript" src="script.js"></script>
+<script type="text/javascript">
+    AOS.init();
+</script>
 </body>
 </html>

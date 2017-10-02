@@ -1,18 +1,13 @@
 body {
 	text-align: center;
 }
-
-ul {
-	list-style-type: none;
-	font-size: 20px;
-}
 .parallax {
 	background-image: url("https://media.glassdoor.com/o/34889/vanderbilt-university-medical-center-office.jpg");
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 1000px;
+    min-height: 400px;
     margin: 0px;
 }
 #info {
@@ -20,18 +15,62 @@ ul {
 	/*margin: 10px 0px;*/
 	margin: 30px 0px 0 0;
 }
-h1{
+#info h1{
 	margin:0px;
 	font-size: 100px;
 	color: white;
 }
-a {
+#info p{
+	font-size: 20px;
 	color: white;
 }
-a:hover {
+#info a {
+	color: white;
+}
+#info a:hover {
 	color: yellow;
 	text-decoration: overline;
 }
 #link-nav {
 	padding: 15px;
+	width: 100%;
+	background: none;
+	position: relative;
+}
+#link-nav ul {
+	list-style-type: none;
+	font-size: 20px;
+}
+#link-nav ul li img {
+	width: 200px;
+}
+#link-nav ul li {
+	display: inline;
+	margin: 0 40px;
+}
+#arrow {
+	filter: invert(1);
+	width: 50px;
+	margin: 0px 0 10 0;
+}
+#footer {
+	background-color: grey;
+	min-height: 30px;
+}
+#profile {
+	border-radius: 50%;
+	width: 300px;
+	margin: 10px 0px;
+}
+#main-content {
+	border-radius: 20px;
+	background-color: white;
+	min-height: 1000px;
+	width: 80%;
+	margin: 0% 10%;
+	padding: 0px 80px;
+}
+#main-content p {
+	font-size: 30px;
+	text-align: left;
 }
