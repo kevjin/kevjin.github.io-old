@@ -4,43 +4,64 @@
     <title>Kevin's Website</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="aos-master/dist/aos.css" />
+    <link rel="stylesheet" href="aos-master/dist/aos.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<div id = "info">
-<strong><h1>Kevin Jin</h1></strong>
-<img id = "profile" src = "profilepic.jpg">
-<p>Computer Science Major at Vanderbilt University | Class of 2021</p>
-<img id = "arrow" src="arrow-down.png" data-aos="zoom-in-down" data-aos-delay="100">
-<!--  -->
-<!-- <img src="http://data.whicdn.com/images/168203275/large.jpg"> -->
+    <div class ="parallax vandy-bg">
+        <div class = "info">
+            <strong><h1>Kevin Jin</h1></strong>
+            <img class = "profile" src = "profilepic.jpg">
+            <p>Computer Science Major at Vanderbilt University | Class of 2021</p>
+            <a href="#scroll-to"><img id = "arrow" src="arrow-down.png" data-aos="zoom-in-down" data-aos-delay="100"></a>
+            <!--  -->
+            <!-- <img src="http://data.whicdn.com/images/168203275/large.jpg"> -->
+        </div>
+    </div>
+    <div class ="parallax vandy-bg"></div>
+
+    <!-- <div class = "test" data-aos="flip-left" data-aos-delay="100">Hello there</div> -->
+    <div id = "scroll-to" name = "scroll-to"></div>
+    <div class ="parallax vandy-bg">
+        <div id="dark" data-aos="fade" data-aos-offset="200" data-aos-duration="800" data-aos-delay = "100">
+        <div class ="main-content" name = "main-content" data-aos="slide-up" data-aos-easing="ease-in-sine" data-aos-duration="900" data-aos-once= "true">
+            <div class="content-text">
+            <div class = "link-nav">
+                <ul>
+                    <li><a href="https://github.com/kevjin">
+                        <img data-aos="flip-left" data-aos-delay="1000" src="github-logo.png" data-aos-easing="ease-in-sine" data-aos-once= "true">
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/kevin-jin-230b53110/">
+                        <img data-aos="flip-left" data-aos-delay="1000" src="linkedin-logo.png" data-aos-once= "true" data-aos-easing="ease-in-sine">
+                    </a></li>
+                    <li>
+                        <a href=""><img data-aos="flip-left" data-aos-delay="1000" src="doc-logo.png" data-aos-easing="ease-in-sine" data-aos-once = "true">
+                        </a></li>
+                </ul>
+            </div>
+
+            <h1><strong>About Me</strong></h1>
+            <br>
+            <p>I am a Computer Science and Mathematics freshman at Vanderbilt University. I describe myself as a problem solver, hacker and teammate. When I'm not going for a quick jog, weightlifting or just hanging out with friends, I spend my free time solving algorithmic challenges, building cool apps with other CS students and teaching AP Computer Science at local high schools. <br><br>
+            I'm attending several hackathons later in the fall and will discuss the completed projects on my site.<br><br>
+            I'm excited about the field of machine learning and am currently following Andrew Ng's Machine Learning course on Coursera.<br><br>
+            I'm having an enjoyable time being a part of the CS community at Vandy and plan to make these four years count!</p>
+
+            </div>
+            <div class="footer">
+                <div class="footer-text">
+                    <p>Kevin Jin 2017</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
-<div class ="parallax" id = "vandy-bg"></div>
-<!-- <div class = "test" data-aos="flip-left" data-aos-delay="100">Hello there</div> -->
-
-<div class ="parallax" id = "vandy-bg">
-    
-<div id ="main-content">
-
-<div id = "link-nav">
-    <ul>
-    <li><a href="https://github.com/kevjin"><img data-aos="flip-left" data-aos-delay="100" src="github-logo.png"></a></li>
-    <li><a href="https://www.linkedin.com/in/kevin-jin-230b53110/"><img data-aos="flip-left" data-aos-delay="100" src="linkedin-logo.png"></a></li>
-    <li><a href=""><img data-aos="flip-left" data-aos-delay="100" src="doc-logo.png"></a></li>
-</ul>
-</div>
-<p>Hi! My personal site is still under construction. Please visit again later, thanks! -Kevin</p>
-</div>
-
-</div>
-
-<div id="footer">Kevin Jin 2017</div>
-
-<script src="aos-master/dist/aos.js"></script>
-<script type="text/javascript" src="script.js"></script>
-<script type="text/javascript">
-    AOS.init();
-</script>
+    <script src="aos-master/dist/aos.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+        AOS.init();
+    </script>
 </body>
 </html>

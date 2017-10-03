@@ -1,50 +1,79 @@
 body {
 	text-align: center;
 }
+p {
+	font-family: 'Lora', serif;
+	font-size: 15px;
+}
+h1, h2, h3 {
+	font-family: 'Roboto', san-serif;
+}
+h1 {
+	font-size: 55px;
+}
+h2 {
+	font-size: 45px;
+}
+h3 {
+	font-size: 25px;
+}
 .parallax {
 	background-image: url("https://media.glassdoor.com/o/34889/vanderbilt-university-medical-center-office.jpg");
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400px;
+    min-height: 300px;
     margin: 0px;
 }
-#info {
+#dark {
+	background: rgba(0, 0, 0, 0.5);
+	min-height: 300px;
+	padding: 10% 0% 0% 0%;
+}
+
+.info {
 	background-color: black;
 	/*margin: 10px 0px;*/
-	margin: 30px 0px 0 0;
+	margin: 0px 0px 15px 0;
+	background: rgba(0, 0, 0, .8)
 }
-#info h1{
+.info h1{
 	margin:0px;
-	font-size: 100px;
+	font-size: 70px;
 	color: white;
 }
-#info p{
+.info p{
 	font-size: 20px;
 	color: white;
 }
-#info a {
+.info a {
 	color: white;
 }
-#info a:hover {
+.info a:hover {
 	color: yellow;
 	text-decoration: overline;
 }
-#link-nav {
+.info .profile {
+	border-radius: 50%;
+	width: 250px;
+	margin: 10px 0px;
+	opacity: 3.5;
+}
+.link-nav {
 	padding: 15px;
 	width: 100%;
 	background: none;
 	position: relative;
 }
-#link-nav ul {
+.link-nav ul {
 	list-style-type: none;
 	font-size: 20px;
 }
-#link-nav ul li img {
-	width: 200px;
+.link-nav ul li img {
+	width: 120px;
 }
-#link-nav ul li {
+.link-nav ul li {
 	display: inline;
 	margin: 0 40px;
 }
@@ -53,24 +82,34 @@ body {
 	width: 50px;
 	margin: 0px 0 10 0;
 }
-#footer {
-	background-color: grey;
-	min-height: 30px;
+#arrow:hover {
+	filter: invert(.6);
 }
-#profile {
-	border-radius: 50%;
-	width: 300px;
-	margin: 10px 0px;
+.footer {
+	background-color: black;
+	margin: 0px;
+	padding: 20px 0px;
 }
-#main-content {
-	border-radius: 20px;
+.footer .footer-text p {
+	font-size: 12px;
+	color: white;
+	margin: 0px;
+}
+.main-content {
+	border-radius: 20px 20px 0px 0px;
 	background-color: white;
-	min-height: 1000px;
 	width: 80%;
 	margin: 0% 10%;
-	padding: 0px 80px;
 }
-#main-content p {
-	font-size: 30px;
+.main-content .content-text p {
+	font-size: 20px;
 	text-align: left;
+}
+.main-content .content-text {
+	padding: 0px 80px;
+	min-height: 1000px;
+}
+#scroll-to {
+	position: relative;
+	top: 0px;
 }
