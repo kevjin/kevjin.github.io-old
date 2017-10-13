@@ -15,7 +15,7 @@ h2 {
 	font-size: 45px;
 }
 h3 {
-	font-size: 25px;
+	font-size: 30px;
 }
 .parallax {
 	background-image: url("https://media.glassdoor.com/o/34889/vanderbilt-university-medical-center-office.jpg");
@@ -36,10 +36,12 @@ h3 {
 	background-color: black;
 	/*margin: 10px 0px;*/
 	margin: 0px 0px 15px 0;
-	background: rgba(0, 0, 0, .8)
+	background: rgba(0, 0, 0, .8);
+	color: white;
+	padding: 20px 0px;
 }
 .info h1{
-	margin:0px;
+	margin:0px 10px;
 	font-size: 70px;
 	color: white;
 }
@@ -57,14 +59,14 @@ h3 {
 .info .profile {
 	border-radius: 50%;
 	width: 200px;
-	margin: 30px 0px;
 	opacity: 3.5;
 }
 .info .profile img {
 	margin: 0px;
+	padding: 0px;
 }
 .link-nav {
-	padding: 15px;
+	padding: 45px 15px;
 	width: 100%;
 	background: none;
 	position: relative;
