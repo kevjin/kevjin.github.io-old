@@ -78,6 +78,9 @@ h3 {
 .link-nav ul li img {
 	width: 120px;
 }
+.link-nav ul li img:hover {
+	filter: invert(80%);
+}
 .link-nav ul li {
 	display: inline;
 	margin: 0 40px;
